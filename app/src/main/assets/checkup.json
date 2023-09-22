@@ -1,0 +1,109 @@
+{
+  "item": [
+    {
+      "item": [
+        {
+          "text": "feet",
+          "type": "display",
+          "linkId": "5371693465079_helpText",
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+              "valueCodeableConcept": {
+                "text": "Help-Button",
+                "coding": [
+                  {
+                    "code": "help",
+                    "display": "Help-Button",
+                    "system": "http://hl7.org/fhir/questionnaire-item-control"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "type": "decimal",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "[ft_i]",
+            "display": "foot"
+          }
+        }
+      ],
+      "linkId": "5371693465079",
+      "text": "Height",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "decimal",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "kg",
+            "display": "kilogram"
+          }
+        }
+      ],
+      "linkId": "760136042104",
+      "text": "Weight",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "integer",
+      "linkId": "4101336363835",
+      "text": "pulse",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "decimal",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]",
+            "display": "millimeter of mercury"
+          }
+        }
+      ],
+      "linkId": "7890345985307",
+      "text": "SYS",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "decimal",
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-unit",
+          "valueCoding": {
+            "system": "http://unitsofmeasure.org",
+            "code": "mm[Hg]",
+            "display": "millimeter of mercury"
+          }
+        }
+      ],
+      "linkId": "108507701469",
+      "text": "DIA",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    }
+  ],
+  "resourceType": "Questionnaire",
+  "title": "check-up questions:",
+  "status": "active"
+}

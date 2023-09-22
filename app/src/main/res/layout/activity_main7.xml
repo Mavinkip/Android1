@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7CCED9"
+    tools:context=".MainActivity7">
+
+    <Button
+        android:id="@+id/diag"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:background="#8AD97C8A"
+        android:text="Diagnosis"
+        android:textColor="#491212"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <Button
+        android:id="@+id/tret"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:background="#8AD97C8A"
+        android:text="Treatment"
+        android:textColor="#4C1515"
+        app:layout_constraintBottom_toTopOf="@+id/med"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diag"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/med"
+        android:layout_width="293dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="236dp"
+        android:background="#8AD97C8A"
+        android:text="How Do You Feel"
+        android:textColor="#5E1B1B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/pname"
+        android:layout_width="268dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:hint="Patient Name"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/diag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.412"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

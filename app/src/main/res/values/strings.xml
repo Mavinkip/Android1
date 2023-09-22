@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Update</string>
+    <string name="submit">Send</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="history_of_the_patients_treatments">History Of the Patients Treatments</string>
+    <string name="add_treatments">ADD TREATMENTS</string>
+</resources>

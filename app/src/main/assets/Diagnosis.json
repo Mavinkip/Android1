@@ -1,0 +1,68 @@
+{
+  "item": [
+    {
+      "type": "string",
+      "linkId": "2719063472466",
+      "text": "Name of disease",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "text",
+      "linkId": "4734049675787",
+      "text": "Symptoms",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "choice",
+      "linkId": "717063446826",
+      "text": "Treatment",
+      "required": true,
+      "repeats": false,
+      "readOnly": false,
+      "answerOption": [
+        {
+          "valueCoding": {
+            "display": "Medication"
+          }
+        },
+        {
+          "valueCoding": {
+            "display": "Physiotherapy"
+          }
+        },
+        {
+          "valueCoding": {
+            "display": "Therapy"
+          }
+        },
+        {
+          "valueCoding": {
+            "display": "Chemotherapy"
+          }
+        }
+      ],
+      "initial": [
+        {
+          "valueCoding": {
+            "display": "Chemotherapy"
+          }
+        }
+      ]
+    },
+    {
+      "type": "date",
+      "linkId": "8886603306760",
+      "text": "Date",
+      "required": true,
+      "repeats": false,
+      "readOnly": false
+    }
+  ],
+  "resourceType": "Questionnaire",
+  "title": "Ailment",
+  "status": "draft"
+}

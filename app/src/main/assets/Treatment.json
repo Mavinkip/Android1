@@ -1,0 +1,37 @@
+{
+  "item": [
+    {
+      "type": "text",
+      "linkId": "8840460092371",
+      "text": "Medication",
+      "enableBehavior": "all",
+      "required": false,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "text",
+      "linkId": "1460738159842",
+      "text": "Physiotherapy",
+      "required": false,
+      "repeats": false,
+      "readOnly": false
+    },
+    {
+      "type": "text",
+      "linkId": "2678889801774",
+      "text": "Therapy"
+    },
+    {
+      "type": "text",
+      "linkId": "2052373258459",
+      "text": "Chemotherapy",
+      "required": false,
+      "repeats": false,
+      "readOnly": false
+    }
+  ],
+  "resourceType": "Questionnaire",
+  "title": "Treatment",
+  "status": "draft"
+}

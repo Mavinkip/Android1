@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#7cd9c6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="329dp"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="399dp"
+        android:gravity="center"
+        android:text="Update"
+        android:textStyle="italic"
+        android:textSize="90sp" />
+
+    <Button
+        android:id="@+id/doctor"
+        android:layout_width="171dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="134dp"
+        android:background="#954AC38B"
+        android:text="Doctor" />
+
+    <Button
+        android:id="@+id/patient"
+        android:layout_width="171dp"
+        android:layout_height="72dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="140dp"
+        android:background="#954AC38B"
+        android:text="Patient" />
+
+
+</RelativeLayout>
